@@ -1,0 +1,6 @@
+Project name:
+Desktop Help Request Client
+
+Description:
+Windows desktop application that gathers some basic system information about the computer,
+along with information from the user, and then posts the data (in JSON format) to a given URL.
