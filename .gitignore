@@ -1,0 +1,31 @@
+# Ignore Visual Studio 2008 files
+# Taken from http://stackoverflow.com/questions/34784/mercurial-hgignore-for-visual-studio-2008-projects
+
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+[Bb]in/
+[Dd]ebug*/
+[Oo]bj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
