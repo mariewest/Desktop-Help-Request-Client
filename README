@@ -1,6 +1,29 @@
-Project name:
+# Project name
+
 Desktop Help Request Client
 
-Description:
+# Short Description
+
 Windows desktop application that gathers some basic system information about the computer,
 along with information from the user, and then posts the data (in JSON format) to a given URL.
+
+# Extended Description
+
+This application was made to help tech support groups. The application gathers the following
+system information about the computer:
+
+- Machine name
+- Username of logged-in user
+- Local IP address
+- List of running processes
+- Timestamp
+- Name (submitted by user)
+- Email (submitted by user)
+- Comments (submitted by user)
+
+The information is posted to the URL specified in the config file when the user presses the
+submit button.
+
+# Configuration
+
+Please see App.config for configuration settings.
